@@ -8,6 +8,8 @@ Allez dans ce dossier et créez un sous-dossier backend.
 À l'intérieur du dossier backend, créez un fichier package.json en exécutant :
 
 # npm init -y.
+# npm install node-fetch@2
+# npm install express
 Installez les dépendances nécessaires en exécutant npm install .
 Créez les dossiers controllers et routes à l'intérieur du dossier backend.
 Dans le dossier backend, créez un fichier app.js.
