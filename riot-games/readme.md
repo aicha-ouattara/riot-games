@@ -15,7 +15,7 @@ Dans le dossier backend, créez un fichier app.js.
 
 
 # Configurer le frontend :
-
+# npm install -g http-server
 À la racine du dossier riot-games, créez un sous-dossier frontend.
 À l'intérieur du dossier frontend, créez un fichier index.html et un fichier app.js.
 
@@ -58,6 +58,8 @@ Lorsque l'API Riot renvoie les informations du joueur, le code dans `getPlayerIn
 # START THE PROJECT
 
 D'abord ...
+# npm install node-fetch@2
+# npm install express
 # npm install
 
 Dans Le dossier backend demarrer le server :
