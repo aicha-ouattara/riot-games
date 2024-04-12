@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const playerInfoHTML = `
         <h2>Player Info</h2>
         <p>Summoner Name: ${playerData.gameName}</p>
-        <p>Level: ${playerData.puuid}</p>
+        <p>Puuid: ${playerData.puuid}</p>
       `;
       playerInfoContainer.innerHTML = playerInfoHTML;
     }
