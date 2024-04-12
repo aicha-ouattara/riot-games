@@ -54,3 +54,16 @@ Lorsque l'API Riot renvoie les informations du joueur, le code dans `getPlayerIn
 
 # 9.
  Lorsque le client reçoit les informations du joueur, le code dans `handleFormSubmit()` les affiche dans la section `player-info` de la page `index.html`.
+
+# START THE PROJECT
+
+D'abord ...
+# npm install
+
+Dans Le dossier backend demarrer le server :
+# node app.js
+
+Dans le dossier frontend :
+# http-server
+
+ 
