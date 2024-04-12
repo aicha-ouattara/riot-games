@@ -1,11 +1,11 @@
-//RGAPI-b4147815-084d-4df8-bd4f-3b36624d13c6
+
 const fetch = require('node-fetch').default;
 
 
 // exports.getPlayerInfo = async (req, res) => {
 //     try {
 //       const { summonerName } = req.params;
-//       const response = await fetch(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}?api_key=RGAPI-d2dc0867-bda6-4de7-9c88-04f4659de811`);
+//       const response = await fetch(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}?api_key=Your API KEY`);
 //       if (!response.ok) {
 //         throw new Error('Player not found');
 //       }
