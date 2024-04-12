@@ -21,7 +21,7 @@ const fetch = require('node-fetch').default;
 
 exports.getPlayerInfo = async (summonerName, summonerTag) => {
     try {
-      const url = `https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${summonerName}/${summonerTag}?api_key=RGAPI-b4147815-084d-4df8-bd4f-3b36624d13c6`
+      const url = `https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${summonerName}/${summonerTag}?api_key=Your apikey`
       console.log(`Sending request to api riot games ${url}`);
       const response = await fetch(url);
       if (!response.ok) {
