@@ -60,7 +60,9 @@ Lorsque l'API Riot renvoie les informations du joueur, le code dans `getPlayerIn
 D'abord ...
 # npm install node-fetch@2
 # npm install express
+# npm install cors
 # npm install
+
 
 Dans Le dossier backend demarrer le server :
 # node app.js
