@@ -15,7 +15,7 @@ Dans le dossier backend, créez un fichier app.js.
 
 
 
-# Configurer le frontend :
+# Configurer le frontend ::
 
 À la racine du dossier riot-games, créez un sous-dossier frontend.
 À l'intérieur du dossier frontend, créez un fichier index.html et un fichier app.js.
